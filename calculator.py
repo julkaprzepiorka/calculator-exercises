@@ -35,3 +35,4 @@ if __name__ == "__main__":  # pragma: no cover
     print("Subtract:", calc.subtract())
     print("Multiply:", calc.multiply())
     print("Divide:", calc.divide()) 
+    
