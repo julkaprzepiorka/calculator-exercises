@@ -25,7 +25,7 @@ def test_divide():
 
 def test_divide_by_zero():
     calc = Calculator(8, 0)
-    with pytest.raises(ZeroDivisionError):
+    with pytest.raises(ValueError):
         calc.divide()
 
 @pytest.mark.parametrize("a, b, expected", [
