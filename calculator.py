@@ -34,5 +34,4 @@ if __name__ == "__main__":  # pragma: no cover
     print("Sum:", calc.sum())
     print("Subtract:", calc.subtract())
     print("Multiply:", calc.multiply())
-    print("Divide:", calc.divide()) 
-    
+    print("Divide:", calc.divide())
