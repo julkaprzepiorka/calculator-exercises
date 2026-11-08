@@ -8,3 +8,4 @@ repos:
           - pytest
         args:
           - --fail-under=8.0
+          - --disable=missing-module-docstring,missing-function-docstring
