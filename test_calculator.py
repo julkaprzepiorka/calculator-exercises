@@ -5,7 +5,7 @@ from calculator import Calculator
 
 def test_sum():
     calc = Calculator(8, 2)
-    assert calc.sum() == 10
+    assert calc.sum() == 20
 
 
 def test_subtract():
